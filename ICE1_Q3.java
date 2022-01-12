@@ -23,4 +23,18 @@ public class ICE1_Q3{
             System.out.print(s + " ");
         }
     }
+
+    // Second Method
+    /*
+    public static void main(String args[]) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter sentence:");
+        String sentence = scanner.nextLine() + " ";
+        String[] arrayOfString = sentence.split(" ");
+        
+        for (int i = arrayOfString.length-1; i > -1; i--){
+            System.out.print(arrayOfString[i] + " ");
+        }
+    }
+    */
 }
